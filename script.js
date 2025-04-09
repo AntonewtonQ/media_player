@@ -16,10 +16,10 @@ class MediaPlayer {
       this.mediaList = [
         { 
           type: 'audio', 
-          title: "Minha Música", 
-          file: "musica1.mp3", 
-          cover: "musica1.jpg",
-          duration: "3:45"
+          title: "Rusga di 7 Hora", 
+          file: "rusga_di_7.mp3", 
+          cover: "rusga_di_7.jpg",
+          duration: "5:33"
         },
         { 
           type: 'audio', 
@@ -28,13 +28,62 @@ class MediaPlayer {
           cover: "musica2.jpg",
           duration: "4:12"
         },
+        {
+          type: 'audio',
+          title: "Luther",
+          file: "luther.mp3",
+          cover: "gnx.png",
+          duration: "2:37"
+        },
+        {
+          type: 'audio',
+          title: "Stayin Alive",
+          file: "stayin_alive.mp3",
+          cover: "stayin_alive.jpg",
+          duration: "4:02"
+        },
+        {
+          type: 'audio',
+          title: "Money",
+          file: "money.mp3",
+          cover: "dstm.png",
+          duration: "6:22"
+        },
         { 
           type: 'video', 
-          title: "Meu Vídeo", 
-          file: "video1.mp4", 
-          cover: "video1.jpg",
-          duration: "5:30"
-        }
+          title: "Andamento", 
+          file: "andamento.mp4", 
+          cover: "andamento.png",
+          duration: "0:22"
+        },
+        { 
+          type: 'video', 
+          title: "Bonk", 
+          file: "bonk.mp4", 
+          cover: "bonk.png",
+          duration: "0:03"
+        },
+        { 
+          type: 'video', 
+          title: "Maguire", 
+          file: "maguire.mp4", 
+          cover: "maguire.jpeg",
+          duration: "0:16"
+        },
+        { 
+          type: 'video', 
+          title: "Gêmeos", 
+          file: "twins.mp4", 
+          cover: "twins.png",
+          duration: "0:37"
+        },
+        { 
+          type: 'video', 
+          title: "Homem cansado", 
+          file: "tired_man.mp4", 
+          cover: "tired_man.png",
+          duration: "0:19"
+        },
       ];
       
       this.radioStations = [
@@ -54,6 +103,12 @@ class MediaPlayer {
           freq: '89.9',
           title: "Radio Lac",
           src: 'https://radios.vpn.sapo.pt/AO/radio14.mp3?1685629053605',
+          cover: "radio.jpg"
+        },
+        {
+          freq: '94.5',
+          title: 'Rádio 5',
+          src: 'https://radios.vpn.sapo.pt/AO/radio5.mp3',
           cover: "radio.jpg"
         }
       ];
